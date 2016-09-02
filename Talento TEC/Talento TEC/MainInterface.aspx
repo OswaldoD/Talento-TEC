@@ -24,7 +24,7 @@
     <form id="form1" runat="server">
     <div>
     <!-- Barra superior roja -->
-    <div class="navbar navbar-default navbar-custom-color1 navbar-fixed-top" role ="navigation">
+    <div class="navbar navbar-default  navbar-fixed-top" role ="navigation">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse" id="barra_rojo">
@@ -43,7 +43,7 @@
     </div>
     
     <!-- Intento de doble barra -->
-<div class="navbar navbar-default navbar-custom-color2 navbar-static-top" role="navigation">	
+<div class="navbar navbar-inverse  navbar-static-top" role="navigation">	
 	<div class="navbar-header">
 		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 		<span class="sr-only">Toggle navigation</span>
