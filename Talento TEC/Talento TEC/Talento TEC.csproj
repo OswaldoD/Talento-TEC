@@ -114,6 +114,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="css\" />
+    <Folder Include="Empresas\" />
+    <Folder Include="Estudiantes\" />
     <Folder Include="fonts\" />
     <Folder Include="js\" />
   </ItemGroup>

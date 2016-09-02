@@ -599,6 +599,7 @@
         color: #FFFFF;
         background-color: #C1272D;
         border-color: #C1272D;
+
        /* font-size: 200%;*/
     }
     .navbar-custom-color2 {
@@ -606,12 +607,13 @@
         color: #FFFF;
         background-color: #140E39;
         border-color: #140E39;
+        text-align: left;
        /* font-size: 200%;*/
 
     }
 /*.navbar-nav > li > a {padding-top:10px !important; padding-bottom:10px !important;}*/
 /*.navbar {min-height:70px !important}*/
     .navbar-buttom {min-height:100px }
-    .navbar-static-top{padding-top: 49px; min-height: 120px}
+    .navbar-static-top{padding-top: 50px; height: 120px}
 
 /*# sourceMappingURL=bootstrap.min.css.map */

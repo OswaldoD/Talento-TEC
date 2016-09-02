@@ -54,12 +54,15 @@
 
 	</div>
     <!-- Logo TEC -->
-	<a class="navbar-brand" href="MainInterface.aspx"> <img alt="" src="images/firma-TEC-jpg-blanco.png" height="50" width="250" /> </a>
+	<a class="navbar-brand" href="MainInterface.aspx"> 
+        <span> <img class="img-responsive" src="images/firma-TEC-jpg-blanco.png" alt="Chania" width="250" height="50" /> </span>  </a>
 	<div class="collapse navbar-collapse">
 		<ul class="nav navbar-nav pull-right">
+			<li><a href="#">Talento TEC</a></li>
+            <!--
 			<li><a href="#">Link</a></li>
 			<li><a href="#">Link</a></li>
-			<li><a href="#">Link</a></li>
+
 			<li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
               <ul class="dropdown-menu">
@@ -71,6 +74,7 @@
                 <li><a href="#">One more separated link</a></li>
               </ul>
             </li>
+            -->
 		</ul>
 
 	</div>
