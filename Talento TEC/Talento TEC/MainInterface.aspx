@@ -34,6 +34,8 @@
                     <span class="icon-bar"></span>
                 </button>
             </div>   
+        <span> <img class="img-responsive" src="images/firma-TEC-jpg-blanco.png" alt="Chania" width="100" height="25" /> </span>  </a>
+
             <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="#">Login</a></li>
@@ -58,7 +60,8 @@
         <span> <img class="img-responsive" src="images/firma-TEC-jpg-blanco.png" alt="Chania" width="250" height="50" /> </span>  </a>
 	<div class="collapse navbar-collapse">
 		<ul class="nav navbar-nav pull-right">
-			<li><a href="#">Talento TEC</a></li>
+			<li><a href="#"> Talento TEC </a></li>
+            <li> <a href="#"> Login2 </a></li>
             <!--
 			<li><a href="#">Link</a></li>
 			<li><a href="#">Link</a></li>
@@ -79,6 +82,8 @@
 
 	</div>
 </div>
+
+
 
 
 
