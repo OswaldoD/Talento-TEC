@@ -110,6 +110,11 @@
     <Content Include="sites\Footer\FechasImportantes.aspx" />
     <Content Include="sites\Footer\TerminosUso.aspx" />
     <Content Include="sites\Talento TEC\MainTalentoTEC.aspx" />
+    <Content Include="sites\Talento TEC\TalentoEmpresas.aspx" />
+    <Content Include="sites\Talento TEC\TalentoEmpresasCostos.aspx" />
+    <Content Include="sites\Talento TEC\TalentoEstudiantes.aspx" />
+    <Content Include="sites\Talento TEC\TalentoEstudiantesInformacion.aspx" />
+    <Content Include="sites\Talento TEC\TalentoGraduados.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -152,6 +157,41 @@
     </Compile>
     <Compile Include="sites\Talento TEC\MainTalentoTEC.aspx.designer.cs">
       <DependentUpon>MainTalentoTEC.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sites\Talento TEC\TalentoEmpresas.aspx.cs">
+      <DependentUpon>TalentoEmpresas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sites\Talento TEC\TalentoEmpresas.aspx.designer.cs">
+      <DependentUpon>TalentoEmpresas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sites\Talento TEC\TalentoEmpresasCostos.aspx.cs">
+      <DependentUpon>TalentoEmpresasCostos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sites\Talento TEC\TalentoEmpresasCostos.aspx.designer.cs">
+      <DependentUpon>TalentoEmpresasCostos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sites\Talento TEC\TalentoEstudiantes.aspx.cs">
+      <DependentUpon>TalentoEstudiantes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sites\Talento TEC\TalentoEstudiantes.aspx.designer.cs">
+      <DependentUpon>TalentoEstudiantes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sites\Talento TEC\TalentoEstudiantesInformacion.aspx.cs">
+      <DependentUpon>TalentoEstudiantesInformacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sites\Talento TEC\TalentoEstudiantesInformacion.aspx.designer.cs">
+      <DependentUpon>TalentoEstudiantesInformacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sites\Talento TEC\TalentoGraduados.aspx.cs">
+      <DependentUpon>TalentoGraduados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sites\Talento TEC\TalentoGraduados.aspx.designer.cs">
+      <DependentUpon>TalentoGraduados.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

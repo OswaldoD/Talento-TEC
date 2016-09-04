@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="MainTalentoTEC.aspx.cs" Inherits="Talento_TEC.sites.Talento_TEC.WebForm1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="TalentoEstudiantes.aspx.cs" Inherits="Talento_TEC.sites.Talento_TEC.TalentoEstudiantes" %>
 
 <!DOCTYPE html>
 
@@ -74,21 +74,32 @@
 
         <br />
         <!-- Texto de Bienvenida -->
-        <h1>Talento TEC </h1>
+        <h1>Estudiantes de Práctica Profesional</h1>
         <br />
-        <h4>    Talento TEC® es un punto de encuentro virtual en el que nuestros profesionales, los estudiantes de práctica profesional y los graduados tienen un espacio propicio para interrelacionarse con el sector industrial nacional e internacional.</h4>
+        <h4>Podrás encontrar la demanda de proyectos de práctica profesional que las empresas publiquen en Talento TEC, así como toda la información para que la contactes. 
+            Para hacer uso de esta aplicación, deberás estar autorizado por el Coordinador de Práctica Profesional de tu Escuela.Para contactar con el cordinador, 
+            selecciona en la siguiente casilla:</h4>
         <br />
-        <h4>    Talento TEC® le garantiza al sector productivo el acceso a un bando de datos que proporciona información sobre la oferta de graduados y de estudiantes de práctica profesional que han recivido una sólida formación académica para óptimos resultados. </h4>
+
+        <div class="dropdown" align="center" >
+            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Seleccione una escuela
+            <span class="caret"></span></button>
+            <ul class="dropdown-menu dropdown-menu-center" role="menu" aria-labelledby="menu1">
+                <li role="presentation"><a role="menuitem"><a href="#">HTML</a></li>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">JavaScript</a></li>
+            </ul>
+        </div>
+
 
         <!-- Botones de acciones -->
-        <br />
-        <br />
+       
+       
         <div class="container" align="center">
-            <a class="btn btn-lg btn-primary" href="TalentoEstudiantes.aspx" role="button"> Estudiantes </a>
-            <a class="btn btn-lg btn-primary" href="#" role="button"> Empresarios </a>
-            <a class="btn btn-lg btn-primary" href="#" role="button"> Graduados </a>
+            <ul class="pager">
+                <li><a href="MainTalentoTEC.aspx">Volver</a></li>
+                <!-- <li><a href="#">Next</a></li> -->
         </div>
-    </div>
 <!-- ---------------------------------------------------------------------------------------------------------------------------------- -->
 <!-- ---------------------------------------------------------------------------------------------------------------------------------- -->
         <!-- Barra inferior -->

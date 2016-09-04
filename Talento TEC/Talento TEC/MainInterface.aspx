@@ -112,9 +112,9 @@
     <div class="navbar-buttom navbar-default navbar-custom-color2 navbar-fixed-bottom ">
         <div class="container">
            <ul class="nav navbar-nav"> 
-               <li> <a href="#"> Términos de Uso </a> </li>
-               <li> <a href="#"> Fechas de Interés </a> </li>
-               <li> <a href="#"> Contáctenos </a> </li>
+               <li> <a href="sites/Footer/TerminosUso.aspx"> Términos de Uso </a> </li>
+               <li> <a href="sites/Footer/FechasImportantes.aspx"> Fechas Importantes </a> </li>
+               <li> <a href="sites/Footer/Contactenos.aspx"> Contáctenos </a> </li>
            </ul>
         </div>
 
