@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="MainInterface.aspx.cs" Inherits="MainInterface" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="MainTalentoTEC.aspx.cs" Inherits="Talento_TEC.sites.Talento_TEC.WebForm1" %>
 
 <!DOCTYPE html>
 
@@ -11,7 +11,7 @@
     <title>Talento TEC</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="/../../css/bootstrap.min.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -56,58 +56,39 @@
 		            <span class="icon-bar"></span>
 		        </button>
                 <!-- Logo TEC -->
-                <a class="navbar-brand" href="MainInterface.aspx"> <span> <img alt="" src="images/firma-TEC-jpg-blanco.png" /> </span></a>
+                <a class="navbar-brand" href="../../MainInterface.aspx"> <span> <img alt="" src="../../images/firma-TEC-jpg-blanco.png" /> </span></a>
 	        </div>
        
 	        <div class="navbar-collapse collapse navbar-bluetop-collapse">
 		        <ul class="nav navbar-nav navbar-right">
-			        <li><a href="sites/Talento TEC/MainTalentoTEC.aspx"> Talento TEC </a></li>
+			        <li><a href="MainTalentoTEC.aspx"> Talento TEC </a></li>
                    
 		        </ul>
 	        </div>
         </div>
     </div>
 
-    <!-- Carrusel -->
+    <!-- Contenedor de contenido -->
     <div class="container"> 
-        <h1>Bienvenido a </h1>
-    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" align="middle">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-            <!--
-            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                -->
-        </ol>
 
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
-            <div class="item active">
-                <img src="images/Talento TEC.png" alt="...">
-                <div class="carousel-caption">
-                    <!-- ... -->
-                </div>
-            </div>
-            
+        <br />
+        <!-- Texto de Bienvenida -->
+        <h1>Talento TEC </h1>
+        <br />
+        <h4>    Talento TEC® es un punto de encuentro virtual en el que nuestros profesionales, los estudiantes de práctica profesional y los graduados tienen un espacio propicio para interrelacionarse con el sector industrial nacional e internacional.</h4>
+        <br />
+        <h4>    Talento TEC® le garantiza al sector productivo el acceso a un bando de datos que proporciona información sobre la oferta de graduados y de estudiantes de práctica profesional que han recivido una sólida formación académica para óptimos resultados. </h4>
 
+        <!-- Botones de acciones -->
+        <br />
+        <br />
+        <div class="container" align="center">
+            <a class="btn btn-lg btn-primary" href="#" role="button"> Estudiantes </a>
+            <a class="btn btn-lg btn-primary" href="#" role="button"> Empresarios </a>
+            <a class="btn btn-lg btn-primary" href="#" role="button"> Graduados </a>
         </div>
-
-        <!-- Controls -->
-        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
     </div>
-        </div>
-
-
-
-
+    
         <!-- Barra inferior -->
     <div class="navbar-buttom navbar-default navbar-custom-color2 navbar-fixed-bottom ">
         <div class="container">
