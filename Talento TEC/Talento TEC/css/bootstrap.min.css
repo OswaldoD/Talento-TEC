@@ -591,6 +591,7 @@
  										.navbar-btn{margin-top:8px;margin-bottom:8px}.navbar-btn.btn-sm{margin-top:10px;margin-bottom:10px}.navbar-btn.btn-xs{margin-top:14px;margin-bottom:14px}.navbar-text{margin-top:15px;margin-bottom:15px}@media (min-width:768px){.navbar-text{float:left;margin-right:15px;margin-left:15px}}@media (min-width:768px){.navbar-left{float:left!important}
  										.navbar-right{float:right!important;margin-right:-15px}.navbar-right~.navbar-right{margin-right:0}}
 
+ 										/*BARRA ROJA*/
  										.navbar-default{background-color:#C1272D;border-color:#C1272D; border-radius:0}
  										.navbar-default .navbar-brand{color:#fff}.navbar-default .navbar-brand:focus,
  										.navbar-default .navbar-brand:hover{color:#5e5e5e;background-color:transparent; font-style: italic}
@@ -612,6 +613,7 @@
  										.navbar-default .navbar-link{color:#777}.navbar-default .navbar-link:hover{color:#333}.navbar-default .btn-link{color:#777}.navbar-default .btn-link:focus,.navbar-default .btn-link:hover{color:#333}.navbar-default .btn-link[disabled]:focus,
  										.navbar-default .btn-link[disabled]:hover,fieldset[disabled] .navbar-default .btn-link:focus,fieldset[disabled] .navbar-default .btn-link:hover{color:#ccc}.navbar-inverse{background-color:#222;border-color:#080808}.navbar-inverse .navbar-brand{color:#9d9d9d}.navbar-inverse .navbar-brand:focus,
 
+ 										 /* BARRA AZUL */
  										.navbar-inverse{background-color: #140E39 ; border-color: #140E39; border-radius:0 }
  										.navbar-inverse .navbar-brand{color:#fff}.navbar-inverse .navbar-brand:focus,
  										.navbar-inverse .navbar-brand:hover{color:#fff;background-color:transparent}
@@ -619,15 +621,16 @@
  										.navbar-inverse .navbar-nav>li>a{color:#fff}.navbar-inverse .navbar-nav>li>a:focus,.navbar-inverse 
  										.navbar-nav>li>a:hover{color:#fff;background-color:transparent; font-style: italic; text-decoration: underline;}
  										.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.active>a:focus,
- 										.navbar-inverse .navbar-nav>.active>a:hover{color:#fff;background-color:#080808}
+ 										.navbar-inverse .navbar-nav>.active>a:hover{color:#fff;background-color:#1B1445}
  										.navbar-inverse .navbar-nav>.disabled>a,.navbar-inverse .navbar-nav>.disabled>a:focus,
  										.navbar-inverse .navbar-nav>.disabled>a:hover{color:#444;background-color:transparent}
  										.navbar-inverse .navbar-toggle{border-color:#333}.navbar-inverse .navbar-toggle:focus,
  										.navbar-inverse .navbar-toggle:hover{background-color:#333}.navbar-inverse .navbar-toggle .icon-bar{background-color:#fff}
  										.navbar-inverse .navbar-collapse,.navbar-inverse .navbar-form{border-color:#101010}.navbar-inverse .navbar-nav>.open>a,
  										.navbar-inverse .navbar-nav>.open>a:focus,
- 										.navbar-inverse .navbar-nav>.open>a:hover{color:#fff;background-color:#080808}@media (max-width:767px){.navbar-inverse .navbar-nav .open .dropdown-menu>.dropdown-header{border-color:#080808}
- 										.navbar-inverse .navbar-nav .open .dropdown-menu .divider{background-color:#080808}.navbar-inverse .navbar-nav .open .dropdown-menu>li>a{color:#9d9d9d}
+ 										.navbar-inverse .navbar-nav>.open>a:hover{color:#fff;background-color:#1B1445}@media (max-width:767px){.navbar-inverse .navbar-nav .open .dropdown-menu>.dropdown-header{border-color:#080808}
+ 										.navbar-inverse .navbar-nav .open .dropdown-menu .divider{background-color:#080808}
+ 										.navbar-inverse .navbar-nav .open .dropdown-menu>li>a{color:#9d9d9d}
  										.navbar-inverse .navbar-nav .open .dropdown-menu>li>a:focus,.navbar-inverse .navbar-nav .open 
  										.dropdown-menu>li>a:hover{color:#fff;background-color:transparent}.navbar-inverse .navbar-nav .open .dropdown-menu>.active>a,
  										.navbar-inverse .navbar-nav .open .dropdown-menu>.active>a:focus,.navbar-inverse .navbar-nav .open 
@@ -668,7 +671,7 @@
 /*.navbar-nav > li > a {padding-top:10px !important; padding-bottom:10px !important;}*/
 /*.navbar {min-height:70px !important}*/
     .navbar-buttom {
-    	/*min-height:100px;*/
+    	min-height:100px
     }
     .navbar-second{
     	top: -20px;
@@ -694,4 +697,64 @@
     text-align: center;
 }
 
+#login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(255,255,255,.8);
+}
+#login-dp .help-block{
+    font-size:12px    
+}
+#login-dp .bottom{
+    background-color:rgba(255,255,255,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+@media(max-width:768px){
+    #login-dp{
+        background-color: inherit;
+        color: #fff;
+    }
+    #login-dp .bottom{
+        background-color: inherit;
+        border-top:0 none;
+    }
+}
 /*# sourceMappingURL=bootstrap.min.css.map */
+
+/*
+There is a simplified solution from bootstrap here (where you don't need to create a new class): http://getbootstrap.com/examples/sticky-footer-navbar/
+
+When you open that page, right click on a browser and "View Source" and open the sticky-footer-navbar.css file (http://getbootstrap.com/examples/sticky-footer-navbar/sticky-footer-navbar.css)
+
+you can see that you only need this CSS*/
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 50px;
+  background-color: #140E39;
+}
+.text-white{
+	color: #fff
+}
