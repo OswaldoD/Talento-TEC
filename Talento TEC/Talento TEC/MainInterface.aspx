@@ -25,7 +25,7 @@
     <div>
     <!-- Barra superior roja -->
 
-    <div class="navbar navbar-default  navbar-fixed-top" role ="navigation">
+    <div class="navbar navbar-default" role ="navigation">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-red-collapse">
@@ -37,16 +37,16 @@
             </div>   
 
             <div class="navbar-collapse collapse navbar-red-collapse">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Login</a></li>
-            </ul>
-        </div> 
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Login</a></li>
+                </ul>
+            </div> 
         </div>
     </div>
 
     <!-- Barra superior azul -->
     <!-- Intento de doble barra -->
-    <div class="navbar navbar-inverse  navbar-static-top" role="navigation">	
+    <div class="navbar navbar-inverse  navbar-second" role="navigation">	
         <div class="container">
 	        <div class="navbar-header">
 		        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-bluetop-collapse">
@@ -61,8 +61,7 @@
        
 	        <div class="navbar-collapse collapse navbar-bluetop-collapse">
 		        <ul class="nav navbar-nav navbar-right">
-			        <li><a href="sites/Talento TEC/MainTalentoTEC.aspx"> Talento TEC </a></li>
-                   
+			        <li><a href="sites/Talento TEC/MainTalentoTEC.aspx"> Talento TEC </a></li>      
 		        </ul>
 	        </div>
         </div>
@@ -105,11 +104,8 @@
     </div>
         </div>
 
-
-
-
         <!-- Barra inferior -->
-    <div class="navbar-buttom navbar-default navbar-custom-color2 navbar-fixed-bottom ">
+    <div class="navbar-buttom navbar-default navbar-custom-color2 navbar-fixed-bottom">
         <div class="container">
            <ul class="nav navbar-nav"> 
                <li> <a href="sites/Footer/TerminosUso.aspx"> Términos de Uso </a> </li>
@@ -117,7 +113,6 @@
                <li> <a href="sites/Footer/Contactenos.aspx"> Contáctenos </a> </li>
            </ul>
         </div>
-
     </div>
     </form>
 
