@@ -758,3 +758,12 @@ body {
 .text-white{
 	color: #fff
 }
+.divider-line {
+  height: 2px;
+  width:100%;
+  display:block; /* for use on default inline elements like span */
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #000000;
+  border-color: #000000;
+}

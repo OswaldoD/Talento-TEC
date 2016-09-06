@@ -22,6 +22,7 @@
     <form id="form1" runat="server">
     <div>
 <!-- ---------------------------------------------------------------------------------------------------------------------------------- -->
+<!-- ---------------------------------------------------------------------------------------------------------------------------------- -->        
     <!-- Barra superior roja -->
     <div class="navbar navbar-default" role ="navigation">
         <div class="container">
@@ -104,9 +105,9 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Talento TEC<span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Estudiantes</a></li>
-                            <li><a href="#">Empresas</a></li>
-                            <li><a href="#">Graduados</a></li>
+                            <li><a href="sites/Talento TEC/TalentoEstudiantes.aspx">Estudiantes</a></li>
+                            <li><a href="sites/Talento TEC/TalentoEmpresas.aspx">Empresas</a></li>
+                            <li><a href="sites/Talento TEC/TalentoGraduados.aspx">Graduados</a></li>
                         </ul>
                     </li>
 			       <!-- <li><a href="sites/Talento TEC/MainTalentoTEC.aspx"> Talento TEC </a></li>      -->

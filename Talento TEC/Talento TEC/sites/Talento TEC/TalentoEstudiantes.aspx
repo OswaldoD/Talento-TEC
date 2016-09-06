@@ -4,15 +4,13 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Talento TEC</title>
-
     <!-- Bootstrap -->
-    <link href="/../../css/bootstrap.min.css" rel="stylesheet">
-
+    <link href="/../../css/bootstrap.min.css" rel="stylesheet"/>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -24,6 +22,7 @@
     <form id="form1" runat="server">
     <div>
 <!-- ---------------------------------------------------------------------------------------------------------------------------------- -->
+<!-- ---------------------------------------------------------------------------------------------------------------------------------- -->        
     <!-- Barra superior roja -->
     <div class="navbar navbar-default" role ="navigation">
         <div class="container">
@@ -35,12 +34,53 @@
                     <span class="icon-bar"></span>
                 </button>
             </div>   
-
             <div class="navbar-collapse collapse navbar-red-collapse">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Login</a></li>
-            </ul>
-        </div> 
+                <ul class="nav navbar-nav navbar-right">
+                    <li><p class="navbar-text">¿Tienes una cuenta?</p></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <b>Login</b><span class="caret"></span></a>
+                        <!-- ----------------------------------------------------------------------------- -->
+                            <ul id="login-dp" class="dropdown-menu">
+                                <li>
+                                  <div class="col-md-12">
+                                      <!-- Form inicio de sesion -->
+                                        <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+                                            <div class="form-group">
+                                                <label class="sr-only" for="input-username">Nombre de Usuario</label>
+                                                <input type="email" class="form-control" id="input_username" placeholder="Usuario" /> 
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="sr-only" for="input-password">Contraseña</label>
+                                                <input type="password" class="form-control" id="input_password" placeholder="Contraseña" />
+                                            </div>
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox" /> No cerrar sesión
+                                                </label>
+                                            </div>
+                                            <div class="form-group">
+                                               <button type="submit" class="btn btn-primary btn-block">Sign In</button> 
+                                            </div>
+                                            <div class="help-block text-right">
+                                                <a href="#">¿Olvidaste la contraseña?</a>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="bottom text-center">
+                                        ¿No tienes una cuenta? <a href="#">Registrate</a>
+                                    </div>
+                                    
+                                </li>
+                            </ul>
+                        <!-- ----------------------------------------------------------------------------- -->
+                    </li>
+                    <!-- <li><a href="#">Login</a></li> 
+
+                        Aca debe ir el menu donde no se inicia sesion sino se tienen las herramientas
+                        
+                        -->
+                </ul>
+            </div> 
         </div>
     </div>
 <!-- ---------------------------------------------------------------------------------------------------------------------------------- -->
@@ -58,11 +98,19 @@
                 <!-- Logo TEC -->
                 <a class="navbar-brand" href="../../MainInterface.aspx"> <span> <img alt="" src="../../images/firma-TEC-jpg-blanco.png" /> </span></a>
 	        </div>
-       
+            <!-- ----- Datos del menu -->
 	        <div class="navbar-collapse collapse navbar-bluetop-collapse">
 		        <ul class="nav navbar-nav navbar-right">
-			        <li><a href="MainTalentoTEC.aspx"> Talento TEC </a></li>
-                   
+                    <li class="active"><a href="../../MainInterface.aspx">Inicio</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Talento TEC<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="TalentoEstudiantes.aspx">Estudiantes</a></li>
+                            <li><a href="TalentoEmpresas.aspx">Empresas</a></li>
+                            <li><a href="TalentoGraduados.aspx">Graduados</a></li>
+                        </ul>
+                    </li>
+			       <!-- <li><a href="sites/Talento TEC/MainTalentoTEC.aspx"> Talento TEC </a></li>      -->
 		        </ul>
 	        </div>
         </div>
@@ -76,9 +124,9 @@
         <!-- Texto de Bienvenida -->
         <h1>Estudiantes de Práctica Profesional</h1>
         <br />
-        <h4>Podrás encontrar la demanda de proyectos de práctica profesional que las empresas publiquen en Talento TEC, así como toda la información para que la contactes. 
-            Para hacer uso de esta aplicación, deberás estar autorizado por el Coordinador de Práctica Profesional de tu Escuela.Para contactar con el cordinador, 
-            selecciona en la siguiente casilla:</h4>
+        <p>Podrás encontrar la demanda de proyectos de práctica profesional que las empresas publiquen en Talento TEC, así como toda la información para que la contactes. 
+            Para hacer uso de esta aplicación, deberás estar autorizado por el Coordinador de Práctica Profesional de tu Escuela.Para contactar con el coordinador, 
+            selecciona en la siguiente casilla:</p>
         <br />
 
         <div class="dropdown" align="center" >
@@ -94,28 +142,29 @@
 
         <!-- Botones de acciones -->
        
-       
+       <!--
         <div class="container" align="center">
             <ul class="pager">
                 <li><a href="MainTalentoTEC.aspx">Volver</a></li>
-                <!-- <li><a href="#">Next</a></li> -->
-        </div>
+                 <li><a href="#">Next</a></li> 
+        </div>-->
+    </div>
 <!-- ---------------------------------------------------------------------------------------------------------------------------------- -->
 <!-- ---------------------------------------------------------------------------------------------------------------------------------- -->
         <!-- Barra inferior -->
-    <div class="navbar-buttom navbar-default navbar-custom-color2 navbar-fixed-bottom ">
-        <div class="container">
-           <ul class="nav navbar-nav"> 
-               <li> <a href="../Footer/TerminosUso.aspx"> Términos de Uso </a> </li>
-               <li> <a href="../Footer/FechasImportantes.aspx"> Fechas Importantes </a> </li>
-               <li> <a href="../Footer/Contactenos.aspx"> Contáctenos </a> </li>
-           </ul>
-        </div>
-
+        <footer class="footer"> 
+            <div class="container">  
+                <div class="row-fluid">
+                    <div class="col-md-4"><a href="../Footer/TerminosUso.aspx"><p class="text-white">Términos de Uso</p></a></div>
+                    <div class="col-md-4"><a href="../Footer/FechasImportantes.aspx"><p class="text-white">Fechas Importantes</p></a></div>
+                    <div class="col-md-4"><a href="../Footer/Contactenos.aspx"><p class="text-white">Contáctenos</p></a></div>
+                </div>
+            </div>
+        </footer>
+<!-- ---------------------------------------------------------------------------------------------------------------------------------- -->
+<!-- ---------------------------------------------------------------------------------------------------------------------------------- -->
     </div>
     </form>
-<!-- ---------------------------------------------------------------------------------------------------------------------------------- -->
-<!-- ---------------------------------------------------------------------------------------------------------------------------------- -->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
