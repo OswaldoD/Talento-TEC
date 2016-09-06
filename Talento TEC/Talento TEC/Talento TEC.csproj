@@ -109,6 +109,8 @@
     <Content Include="sites\Footer\Contactenos.aspx" />
     <Content Include="sites\Footer\FechasImportantes.aspx" />
     <Content Include="sites\Footer\TerminosUso.aspx" />
+    <Content Include="sites\Registro\MainRegistro.aspx" />
+    <Content Include="sites\Registro\registro_empresa\RegistroEmpresa1.aspx" />
     <Content Include="sites\Talento TEC\MainTalentoTEC.aspx" />
     <Content Include="sites\Talento TEC\TalentoEmpresas.aspx" />
     <Content Include="sites\Talento TEC\TalentoEstudiantes.aspx" />
@@ -149,6 +151,20 @@
     </Compile>
     <Compile Include="sites\Footer\TerminosUso.aspx.designer.cs">
       <DependentUpon>TerminosUso.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sites\Registro\MainRegistro.aspx.cs">
+      <DependentUpon>MainRegistro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sites\Registro\MainRegistro.aspx.designer.cs">
+      <DependentUpon>MainRegistro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sites\Registro\registro_empresa\RegistroEmpresa1.aspx.cs">
+      <DependentUpon>RegistroEmpresa1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sites\Registro\registro_empresa\RegistroEmpresa1.aspx.designer.cs">
+      <DependentUpon>RegistroEmpresa1.aspx</DependentUpon>
     </Compile>
     <Compile Include="sites\Talento TEC\MainTalentoTEC.aspx.cs">
       <DependentUpon>MainTalentoTEC.aspx</DependentUpon>
@@ -191,6 +207,8 @@
     <Folder Include="fonts\" />
     <Folder Include="js\" />
     <Folder Include="sites\Estudiantes\" />
+    <Folder Include="sites\Registro\registro-graduado\" />
+    <Folder Include="sites\Registro\registro_estudiante\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="MainInterface.aspx.cs" Inherits="MainInterface" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="RegistroEmpresa1.aspx.cs" Inherits="Talento_TEC.sites.Registro.registro_empresa.RegistroEmpresa1" %>
 
 <!DOCTYPE html>
 
@@ -10,7 +10,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Talento TEC</title>
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="/../../../css/bootstrap.min.css" rel="stylesheet"/>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -67,13 +67,8 @@
                                         </form>
                                     </div>
                                     <div class="bottom text-center">
-                                        ¿No tienes una cuenta?
-                                        <a class="btn btn-primary btn-block" href="sites/Registro/MainRegistro.aspx" role="button">Registrate</a>
-                                    </div>
-                                    <!--
-                                    <div class="bottom text-center">
                                         ¿No tienes una cuenta? <a href="#">Registrate</a>
-                                    </div>-->
+                                    </div>
                                     
                                 </li>
                             </ul>
@@ -101,18 +96,18 @@
 		            <span class="icon-bar"></span>
 		        </button>
                 <!-- Logo TEC -->
-                <a class="navbar-brand" href="MainInterface.aspx"> <span> <img alt="" src="images/firma-TEC-jpg-blanco.png" /> </span></a>
+                <a class="navbar-brand" href="../../MainInterface.aspx"> <span> <img alt="" src="../../../images/firma-TEC-jpg-blanco.png" /> </span></a>
 	        </div>
             <!-- ----- Datos del menu -->
 	        <div class="navbar-collapse collapse navbar-bluetop-collapse">
 		        <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="#">Inicio</a></li>
+                    <li class="active"><a href="../../MainInterface.aspx">Inicio</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Talento TEC<span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="sites/Talento TEC/TalentoEstudiantes.aspx">Estudiantes</a></li>
-                            <li><a href="sites/Talento TEC/TalentoEmpresas.aspx">Empresas</a></li>
-                            <li><a href="sites/Talento TEC/TalentoGraduados.aspx">Graduados</a></li>
+                            <li><a href="TalentoEstudiantes.aspx">Estudiantes</a></li>
+                            <li><a href="TalentoEmpresas.aspx">Empresas</a></li>
+                            <li><a href="TalentoGraduados.aspx">Graduados</a></li>
                         </ul>
                     </li>
 			       <!-- <li><a href="sites/Talento TEC/MainTalentoTEC.aspx"> Talento TEC </a></li>      -->
@@ -122,56 +117,52 @@
     </div>
 <!-- ---------------------------------------------------------------------------------------------------------------------------------- -->
 <!-- ---------------------------------------------------------------------------------------------------------------------------------- -->
-    <!-- Carrusel -->
+    <!-- Contenedor de contenido -->
     <div class="container"> 
-        <h1>Bienvenido a Talento TEC </h1>
+        <!-- Texto de Bienvenida -->
+        <h1>Registro de Empresas</h1>
+        <h3>Información Inicial</h3>
         <br />
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" align="middle">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                <!--
-                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                -->
-            </ol>
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                    <img src="images/Talento TEC.png" >
-                    <div class="carousel-caption">
-                        <!-- ... -->
-                    </div>
-                </div>
-            </div>
-            <!-- Controls -->
-            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
+        <p>Ingrese o modifique los datos de referencia de su empresa para poder acceder a los distintos servicios del ITCR.</p>
+
+        <p>Los campos con un asterisco (*) denotan que son campos obligatorios de ingresar.</p>
+        <li role="presentation" class="divider-line"></li> 
+        <form>
+
+
+        </form>
+        <br />
+        
+        <br />
+        <!--
+        <div class="dropdown" align="center" >
+            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Seleccione una escuela
+            <span class="caret"></span></button>
+            <ul class="dropdown-menu dropdown-menu-center" role="menu" aria-labelledby="menu1">
+                <li role="presentation"><a role="menuitem"><a href="#">HTML</a></li>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">JavaScript</a></li>
+            </ul>
         </div>
-<!-- ---------------------------------------------------------------------------------------------------------------------------------- -->
-<!-- ---------------------------------------------------------------------------------------------------------------------------------- -->
-        <!-- Inicio del texto -->
-        <br />
-        <p>    Talento TEC® es un punto de encuentro virtual en el que nuestros profesionales, los estudiantes de práctica profesional y los graduados tienen un espacio propicio para interrelacionarse con el sector industrial nacional e internacional.</p>
-        <br />
-        <p>    Talento TEC® le garantiza al sector productivo el acceso a un bando de datos que proporciona información sobre la oferta de graduados y de estudiantes de práctica profesional que han recivido una sólida formación académica para óptimos resultados. </p>
-        <!-- Fin del texto -->
-      </div>
+        -->
+        <!-- Botones de acciones -->
+       
+       <!--
+        <div class="container" align="center">
+            <ul class="pager">
+                <li><a href="MainTalentoTEC.aspx">Volver</a></li>
+                 <li><a href="#">Next</a></li> 
+        </div>-->
+    </div>
 <!-- ---------------------------------------------------------------------------------------------------------------------------------- -->
 <!-- ---------------------------------------------------------------------------------------------------------------------------------- -->
         <!-- Barra inferior -->
         <footer class="footer"> 
             <div class="container">  
                 <div class="row-fluid">
-                    <div class="col-md-4"><a href="sites/Footer/TerminosUso.aspx"><p class="text-white">Términos de Uso</p></a></div>
-                    <div class="col-md-4"><a href="sites/Footer/FechasImportantes.aspx"><p class="text-white">Fechas Importantes</p></a></div>
-                    <div class="col-md-4"><a href="sites/Footer/Contactenos.aspx"><p class="text-white">Contáctenos</p></a></div>
+                    <div class="col-md-4"><a href="../Footer/TerminosUso.aspx"><p class="text-white">Términos de Uso</p></a></div>
+                    <div class="col-md-4"><a href="../Footer/FechasImportantes.aspx"><p class="text-white">Fechas Importantes</p></a></div>
+                    <div class="col-md-4"><a href="../Footer/Contactenos.aspx"><p class="text-white">Contáctenos</p></a></div>
                 </div>
             </div>
         </footer>
@@ -182,7 +173,6 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-
+    <script src="../../../js/bootstrap.min.js"></script>
 </body>
 </html>

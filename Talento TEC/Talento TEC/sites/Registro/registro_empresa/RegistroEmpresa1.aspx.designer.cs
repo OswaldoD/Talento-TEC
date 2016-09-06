@@ -7,10 +7,10 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
-namespace Talento_TEC.sites.Talento_TEC {
+namespace Talento_TEC.sites.Registro.registro_empresa {
     
     
-    public partial class TalentoEstudiantesInformacion {
+    public partial class RegistroEmpresa1 {
         
         /// <summary>
         /// Control form1.
