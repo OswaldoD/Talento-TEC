@@ -47,7 +47,7 @@
                                         <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
                                             <div class="form-group">
                                                 <label class="sr-only" for="input-username">Nombre de Usuario</label>
-                                                <input type="email" class="form-control" id="input_username" placeholder="Usuario" /> 
+                                                <input type="email" class="form-control" id="input_username" placeholder="Usuario" required/> 
                                             </div>
                                             <div class="form-group">
                                                 <label class="sr-only" for="input-password">Contraseña</label>
