@@ -111,7 +111,6 @@
     <Content Include="sites\Footer\TerminosUso.aspx" />
     <Content Include="sites\Talento TEC\MainTalentoTEC.aspx" />
     <Content Include="sites\Talento TEC\TalentoEmpresas.aspx" />
-    <Content Include="sites\Talento TEC\TalentoEmpresasCostos.aspx" />
     <Content Include="sites\Talento TEC\TalentoEstudiantes.aspx" />
     <Content Include="sites\Talento TEC\TalentoEstudiantesInformacion.aspx" />
     <Content Include="sites\Talento TEC\TalentoGraduados.aspx" />
@@ -164,13 +163,6 @@
     </Compile>
     <Compile Include="sites\Talento TEC\TalentoEmpresas.aspx.designer.cs">
       <DependentUpon>TalentoEmpresas.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="sites\Talento TEC\TalentoEmpresasCostos.aspx.cs">
-      <DependentUpon>TalentoEmpresasCostos.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="sites\Talento TEC\TalentoEmpresasCostos.aspx.designer.cs">
-      <DependentUpon>TalentoEmpresasCostos.aspx</DependentUpon>
     </Compile>
     <Compile Include="sites\Talento TEC\TalentoEstudiantes.aspx.cs">
       <DependentUpon>TalentoEstudiantes.aspx</DependentUpon>
