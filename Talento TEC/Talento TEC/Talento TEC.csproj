@@ -105,12 +105,18 @@
     <Content Include="MainInterface.aspx" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
+    <Content Include="sites\Empresas\AgregarOfertaLaboral.aspx" />
     <Content Include="sites\Empresas\MainEmpresas.aspx" />
+    <Content Include="sites\Empresas\VerOferentes.aspx" />
+    <Content Include="sites\Empresas\VerOfertasLaborales.aspx" />
     <Content Include="sites\Footer\Contactenos.aspx" />
     <Content Include="sites\Footer\FechasImportantes.aspx" />
     <Content Include="sites\Footer\TerminosUso.aspx" />
     <Content Include="sites\Registro\MainRegistro.aspx" />
     <Content Include="sites\Registro\registro_empresa\RegistroEmpresa1.aspx" />
+    <Content Include="sites\Registro\registro_empresa\RegistroEmpresa2.aspx" />
+    <Content Include="sites\Registro\registro_empresa\RegistroEmpresa3.aspx" />
+    <Content Include="sites\Registro\registro_empresa\RegistroEmpresa4.aspx" />
     <Content Include="sites\Talento TEC\MainTalentoTEC.aspx" />
     <Content Include="sites\Talento TEC\TalentoEmpresas.aspx" />
     <Content Include="sites\Talento TEC\TalentoEstudiantes.aspx" />
@@ -124,12 +130,33 @@
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sites\Empresas\AgregarOfertaLaboral.aspx.cs">
+      <DependentUpon>AgregarOfertaLaboral.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sites\Empresas\AgregarOfertaLaboral.aspx.designer.cs">
+      <DependentUpon>AgregarOfertaLaboral.aspx</DependentUpon>
+    </Compile>
     <Compile Include="sites\Empresas\MainEmpresas.aspx.cs">
       <DependentUpon>MainEmpresas.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="sites\Empresas\MainEmpresas.aspx.designer.cs">
       <DependentUpon>MainEmpresas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sites\Empresas\VerOferentes.aspx.cs">
+      <DependentUpon>VerOferentes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sites\Empresas\VerOferentes.aspx.designer.cs">
+      <DependentUpon>VerOferentes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sites\Empresas\VerOfertasLaborales.aspx.cs">
+      <DependentUpon>VerOfertasLaborales.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sites\Empresas\VerOfertasLaborales.aspx.designer.cs">
+      <DependentUpon>VerOfertasLaborales.aspx</DependentUpon>
     </Compile>
     <Compile Include="sites\Footer\Contactenos.aspx.cs">
       <DependentUpon>Contactenos.aspx</DependentUpon>
@@ -165,6 +192,27 @@
     </Compile>
     <Compile Include="sites\Registro\registro_empresa\RegistroEmpresa1.aspx.designer.cs">
       <DependentUpon>RegistroEmpresa1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sites\Registro\registro_empresa\RegistroEmpresa2.aspx.cs">
+      <DependentUpon>RegistroEmpresa2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sites\Registro\registro_empresa\RegistroEmpresa2.aspx.designer.cs">
+      <DependentUpon>RegistroEmpresa2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sites\Registro\registro_empresa\RegistroEmpresa3.aspx.cs">
+      <DependentUpon>RegistroEmpresa3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sites\Registro\registro_empresa\RegistroEmpresa3.aspx.designer.cs">
+      <DependentUpon>RegistroEmpresa3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sites\Registro\registro_empresa\RegistroEmpresa4.aspx.cs">
+      <DependentUpon>RegistroEmpresa4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sites\Registro\registro_empresa\RegistroEmpresa4.aspx.designer.cs">
+      <DependentUpon>RegistroEmpresa4.aspx</DependentUpon>
     </Compile>
     <Compile Include="sites\Talento TEC\MainTalentoTEC.aspx.cs">
       <DependentUpon>MainTalentoTEC.aspx</DependentUpon>
