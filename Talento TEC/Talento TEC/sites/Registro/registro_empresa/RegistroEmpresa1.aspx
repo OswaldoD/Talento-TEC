@@ -263,7 +263,7 @@
 
                 <!-- Este es el verdadero boton esta desactivado para no conectarlo
                     <button type="submit" class="btn btn-primary btn-md col-md-1">Continuar</button> -->
-                <button type="button" class="btn btn-primary btn-md col-md-1" formaction="RegistroEmpresa2.aspx">Siguiente</button> 
+                <button type="submit" class="btn btn-primary btn-md col-md-1" formaction="RegistroEmpresa2.aspx">Siguiente</button> 
                 <a href="RegistroEmpresa2.aspx">pass</a>
             </div>
         </form>

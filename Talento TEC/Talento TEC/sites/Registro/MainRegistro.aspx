@@ -132,9 +132,9 @@
         <p>Por favor seleccione una opción</p>
         <br />
         <div class="container" align="center">
-            <a class="btn btn-lg btn-primary" href="#" role="button"> Estudiantes </a>
-            <a class="btn btn-lg btn-primary" href="registro_empresa/RegistroEmpresa1.aspx" role="button"> Empresarios </a>
-            <a class="btn btn-lg btn-primary" href="#" role="button"> Graduados </a>
+            <a class="btn btn-lg btn-primary" href="#" role="button"> Estudiante </a>
+            <a class="btn btn-lg btn-primary" href="registro_empresa/RegistroEmpresa1.aspx" role="button"> Empresa </a>
+            <a class="btn btn-lg btn-primary" href="#" role="button"> Graduado </a>
         </div>
         <!-- <li role="presentation" class="divider-line"></li> -->
         <br />
